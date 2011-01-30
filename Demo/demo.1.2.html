@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<head>
+		<link href="./css/style.css" type="text/css" rel="stylesheet" />		
+		<script type="text/javascript" src="./js/mootools-1.2.js"></script>
+		<script type="text/javascript" src="../Source/Element.unselectable.js"></script>
+		<script type="text/javascript">
+			
+			window.addEvent('domready', function(){
+				$('non').unselectable();
+				$$('.non').unselectable();
+			});
+			
+		</script>
+	</head>
+	<body>
+		<div id="wrap">
+			<div class="big">
+				<h3>This parragraphs are signed by class</h3>
+				<pre>
+						$$('.non').unselectable();
+				</pre>
+				<p class="sel">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed lectus enim. Donec rutrum tristique lacus ac mattis.
+				</p>
+				<p class="non">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed lectus enim. Donec rutrum tristique lacus ac mattis.
+				</p>
+				<p class="sel">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed lectus enim. Donec rutrum tristique lacus ac mattis.
+				</p>	
+				<p class="non">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed lectus enim. Donec rutrum tristique lacus ac mattis.
+				</p>
+				<p class="sel">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed lectus enim. Donec rutrum tristique lacus ac mattis.
+				</p>
+				<p class="non">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed lectus enim. Donec rutrum tristique lacus ac mattis.
+				</p>				
+			</div>
+			<div class="big">
+				<h3>This div is signed by id</h3>
+				<pre>
+						$('non').unselectable();
+				</pre>			
+				<div id="sel">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed lectus enim. Donec rutrum tristique lacus ac mattis. 
+				</div>
+				<div id="non">
+					Aenean eu elit nulla, a suscipit velit. Quisque ac quam tortor, id luctus leo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+				</div>
+			<div>
+		</div>
+	</body>
+</html>

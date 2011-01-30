@@ -1,0 +1,28 @@
+#wrap{
+	width: 790px;
+	margin: 0 auto 0;
+}
+.big{
+	width: 786px;
+	float: left;
+	border: 1px solid #009;
+	color: #009;
+	padding: 5px;
+	margin: 5px 0;
+}
+
+#sel, .sel{
+	width: 250px;
+	float: left;
+	border: 1px solid #090;
+	color: #090;
+	padding: 5px;
+}
+
+#non, .non{
+	width: 250px;
+	float: left;
+	border: 1px solid #900;
+	color: #900;
+	padding: 5px;
+}
